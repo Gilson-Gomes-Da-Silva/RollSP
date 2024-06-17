@@ -41,9 +41,12 @@ class MainApp extends StatelessWidget {
                                     548),
                             width:
                                 MediaQuery.of(context).size.width * 139 / 292,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(30),
+                                border: Border.all(color: Colors.black),
+                                color: Colors.black),
                             height:
                                 MediaQuery.of(context).size.width * 121 / 504,
-                            color: Colors.black,
                             child: TextButton(
                                 onPressed: () {
                                   Navigator.push(
@@ -71,7 +74,10 @@ class MainApp extends StatelessWidget {
                                 left: MediaQuery.of(context).size.width *
                                     7 /
                                     548),
-                            color: Colors.black,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(30),
+                                border: Border.all(color: Colors.black),
+                                color: Colors.black),
                             child: TextButton(
                                 onPressed: () {
                                   Navigator.push(
