@@ -42,7 +42,10 @@ class resultado extends StatelessWidget {
                     top: MediaQuery.of(context).size.height * 2 / 63,
                     left: MediaQuery.of(context).size.width * 3 / 73,
                     right: MediaQuery.of(context).size.width * 3 / 73),
-                color: Colors.white,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30),
+                    border: Border.all(color: Colors.black),
+                    color: Colors.white),
                 child: Column(
                   children: [
                     Center(
