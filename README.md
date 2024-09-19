@@ -2,7 +2,7 @@
 <h3>Integrantes:</h3>
 <ul>
   <li>
-    <p><b>Daniel Dias Bueno</b></p>
+    <p><b>Arthur Reimberg</b></p>
   </li>
   <li>
     <p><b>Gilson Gomes da Silv</b>a</p>
